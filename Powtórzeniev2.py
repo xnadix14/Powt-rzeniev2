@@ -16,3 +16,15 @@ print(lista1)
 
 #e coś
 print(True)
+
+#f) komunikaty złożone
+imie = 'Janusz'
+wiek = 45
+nazwisko = 'Kowal'
+
+print(imie + '\t' + nazwisko + '\tma\t ' + str(wiek) + ' lat ')
+
+print('{0} {1}\n\t ma lat\n\t\t {2}'.format( imie, nazwisko, wiek ))
+
+#\n - przejście do nowej linii
+#\t - tabulator
